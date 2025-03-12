@@ -65,7 +65,8 @@ flutter run
 🔹 main.dart
 - Point d'entrée de l'application.
 - Déclare DiceApp, qui lance DiceHomePage.
-  🔹 dice_home_page.dart
+
+🔹  dice_home_page.dart
 - Gère l’état du dé (StatefulWidget).
 - Utilise Random() pour générer une nouvelle face à chaque clic.
 - Met à jour l'interface avec setState().
