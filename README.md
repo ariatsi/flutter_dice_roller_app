@@ -52,8 +52,6 @@ flutter pub get
 Lancez l’application avec la commande :
 
 ```sh
-Copy
-Edit
 flutter run
 ```
 
