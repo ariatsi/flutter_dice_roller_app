@@ -16,7 +16,7 @@ Cette application Flutter simule un lancer de dés interactif. Lorsque l'utilisa
 - **Utilisation de Random() pour générer des nombres aléatoires**
 
 ## 📂 Structure du Projet
-
+```sh
 flutter_dice_roller_app/
 │── lib/
 │   ├── main.dart
@@ -31,6 +31,7 @@ flutter_dice_roller_app/
 │       ├── dice6.png
 │── pubspec.yaml
 │── README.md
+```
 
 ## 🚀 Installation et Exécution
 
