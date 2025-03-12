@@ -57,19 +57,19 @@ flutter run
 
 ### 📜 Fonctionnalités
 - Affichage dynamique du dé 🎲
-- Interaction tactile : Un tap sur le dé génère un nouveau nombre aléatoire entre 1 et 6.
-- Changement d’image basé sur le nombre tiré.
-- Gestion des assets : Images des dés stockées dans assets/images.
+- **Interaction tactile** : Un tap sur le dé génère un nouveau nombre aléatoire entre 1 et 6.
+- **Changement d’image** basé sur le nombre tiré.
+- **Gestion des assets** : Images des dés stockées dans assets/images.
 
 ### 🏗️ Explication du Code
-🔹 main.dart
+🔹 **main.dart**
 - Point d'entrée de l'application.
-- Déclare DiceApp, qui lance DiceHomePage.
+- Déclare `DiceApp`, qui lance `DiceHomePage`.
 
-🔹  dice_home_page.dart
-- Gère l’état du dé (StatefulWidget).
-- Utilise Random() pour générer une nouvelle face à chaque clic.
-- Met à jour l'interface avec setState().
+🔹**dice_home_page.dart**
+- Gère l’état du dé (`StatefulWidget`).
+- Utilise `Random()` pour générer une nouvelle face à chaque clic.
+- Met à jour l'interface avec `setState()`.
 
 ````dart
 import 'dart:math';
@@ -106,15 +106,15 @@ class _DiceHomePageState extends State<DiceHomePage> {
 
 ### 🎨 Personnalisation
 Quelques idées pour améliorer l’application :
-- Animations : Ajouter un effet de rotation lors du changement de face.
-- Compteur : Afficher le nombre total de lancers.
-- Thèmes : Permettre un mode sombre.
+- **Animations** : Ajouter un effet de rotation lors du changement de face.
+- **Compteur** : Afficher le nombre total de lancers.
+- **Thèmes** : Permettre un mode sombre.
 
 ### 📝 Licence
-Ce projet est sous licence MIT. Vous êtes libre de l’utiliser et de le modifier.
+Ce projet est sous licence **MIT**. Vous êtes libre de l’utiliser et de le modifier.
 
 ### 💡 Remarque
-Si l'application ne charge pas les images, assurez-vous que pubspec.yaml est bien configuré :
+Si l'application ne charge pas les images, assurez-vous que `pubspec.yaml` est bien configuré :
 
 ````yaml
 flutter:
